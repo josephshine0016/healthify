@@ -41,7 +41,7 @@ const DoctorDashboard = (props) => {
                     />
                   </div>
                 </div>
-                <span className="doctor-dashboard-text02">
+                <span className="doctor-dashboard-text02" onClick = {() => navigate("/profile")}>
                   <span>Your Profile</span>
                 </span>
               </div>

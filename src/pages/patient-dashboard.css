@@ -1,0 +1,311 @@
+.patient-dashboard-container {
+  min-height: 100vh;
+}
+.patient-dashboard-patient-dashboard {
+  width: 100%;
+  height: 864px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.patient-dashboard-rectangle158 {
+  top: 0px;
+  left: 0px;
+  width: 624px;
+  height: 1024px;
+  position: absolute;
+  border-color: transparent;
+}
+.patient-dashboard-frame141 {
+  top: 51px;
+  left: 29px;
+  width: 258px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+.patient-dashboard-frame189 {
+  top: 51px;
+  left: 29px;
+  width: 1190px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: space-between;
+}
+.patient-dashboard-frame112 {
+  top: 51px;
+  left: 53px;
+  width: 210px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.patient-dashboard-text {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 47px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-dashboard-frame140 {
+  top: 252px;
+  left: 29px;
+  width: 258px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.patient-dashboard-frame30 {
+  display: flex;
+  padding: 10px;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 44px;
+  flex-direction: column;
+  justify-content: center;
+}
+.patient-dashboard-frame29 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  justify-content: center;
+}
+.patient-dashboard-ggprofile {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 15px;
+}
+.patient-dashboard-group {
+  top: 1.153846025466919px;
+  left: 1.153846025466919px;
+  width: 25.38461685180664px;
+  height: 25.38461685180664px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.patient-dashboard-vector {
+  top: 4.615384578704834px;
+  left: 8.076923370361328px;
+  width: 9px;
+  height: 9px;
+  position: absolute;
+}
+.patient-dashboard-vector1 {
+  top: 0px;
+  left: 0px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+.patient-dashboard-text02 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-dashboard-frame31 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 44px;
+  justify-content: center;
+}
+.patient-dashboard-carbontemperaturefahrenheit {
+  width: 36px;
+  height: 34px;
+  position: relative;
+  margin-right: 10px;
+}
+.patient-dashboard-text04 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-dashboard-frame32 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 44px;
+  justify-content: center;
+}
+.patient-dashboard-carbonreport {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  margin-right: 16px;
+}
+.patient-dashboard-text06 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-dashboard-frame33 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 44px;
+  justify-content: center;
+}
+.patient-dashboard-materialsymbolshistory {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  margin-right: 15px;
+}
+.patient-dashboard-text08 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-dashboard-frame34 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  justify-content: center;
+}
+.patient-dashboard-icbaselinelogout {
+  width: 29px;
+  height: 28px;
+  position: relative;
+  margin-right: 18px;
+}
+.patient-dashboard-text10 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-dashboard-frame139 {
+  top: 369px;
+  left: 893px;
+  width: 432px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+.patient-dashboard-frame121 {
+  display: flex;
+  padding: 14px 27px;
+  position: relative;
+  box-shadow: 2px 7px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+  border-color: transparent;
+  border-radius: 88px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 1);
+}
+.patient-dashboard-text12 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 33px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}

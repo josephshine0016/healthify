@@ -1,0 +1,227 @@
+.landing-page-container {
+  min-height: 100vh;
+}
+.landing-page-landing-page {
+  width: 100%;
+  height: 864px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 1);
+}
+.landing-page-frame132 {
+  top: -31px;
+  left: 574px;
+  width: 989px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.landing-page-image9 {
+  width: 969px;
+  height: 1024px;
+  position: relative;
+  border-color: transparent;
+}
+.landing-page-frame143 {
+  top: 17px;
+  left: 17px;
+  width: 981px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+.landing-page-frame135 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 280px;
+  justify-content: center;
+}
+.landing-page-frame134 {
+  display: flex;
+  padding: 10px;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-right: 748px;
+  flex-direction: column;
+  justify-content: center;
+}
+.landing-page-frame131 {
+  display: flex;
+  padding: 10px;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  justify-content: center;
+}
+.landing-page-text {
+  color: rgba(20, 106, 95, 1);
+  height: auto;
+  font-size: 40px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: DM Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.landing-page-frame133 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  justify-content: center;
+}
+.landing-page-group115 {
+  width: 137px;
+  height: 45px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 44px;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(30, 206, 206, 1);
+}
+.landing-page-text02 {
+  top: 8px;
+  left: 33px;
+  color: rgba(42, 52, 45, 1);
+  width: 82px;
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: DM Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page-group114 {
+  width: 137px;
+  height: 45px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 44px;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+.landing-page-text04 {
+  top: 10px;
+  left: 39px;
+  color: rgba(42, 52, 45, 1);
+  width: 82px;
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: DM Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page-vector {
+  width: 21px;
+  height: 21px;
+  position: relative;
+  margin-right: 44px;
+}
+.landing-page-frame {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  margin-right: 44px;
+}
+.landing-page-frame1 {
+  width: 28px;
+  height: 28px;
+  position: relative;
+}
+.landing-page-frame129 {
+  display: flex;
+  padding: 0 114px;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 280px;
+}
+.landing-page-text06 {
+  color: rgba(20, 106, 95, 1);
+  width: 611px;
+  height: auto;
+  font-size: 40px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: DM Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.landing-page-frame130 {
+  display: flex;
+  padding: 10px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.landing-page-text08 {
+  color: rgba(20, 106, 95, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}

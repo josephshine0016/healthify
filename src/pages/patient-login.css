@@ -1,0 +1,281 @@
+.patient-login-container {
+  min-height: 100vh;
+}
+.patient-login-patient-login {
+  width: 100%;
+  height: 864px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.patient-login-rectangle121 {
+  top: 0px;
+  left: 0px;
+  width: 636px;
+  height: 1024px;
+  position: absolute;
+  border-color: transparent;
+}
+.patient-login-rectangle153 {
+  top: 519px;
+  left: 1002px;
+  width: 172px;
+  height: 57px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 88px;
+}
+.patient-login-rectangle155 {
+  top: 646px;
+  left: 1002px;
+  width: 172px;
+  height: 57px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 88px;
+}
+.patient-login-rectangle154 {
+  top: 519px;
+  left: 1002px;
+  width: 172px;
+  height: 57px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 88px;
+}
+.patient-login-rectangle156 {
+  top: 646px;
+  left: 1002px;
+  width: 172px;
+  height: 57px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 88px;
+}
+.patient-login-text {
+  top: 531px;
+  left: 1043px;
+  color: rgba(255, 255, 255, 1);
+  width: 90px;
+  height: auto;
+  position: absolute;
+  font-size: 33px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-login-text02 {
+  top: 531px;
+  left: 1043px;
+  color: rgba(255, 255, 255, 1);
+  width: 90px;
+  height: auto;
+  position: absolute;
+  font-size: 33px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-login-text04 {
+  top: 658px;
+  left: 1026px;
+  color: rgba(255, 255, 255, 1);
+  width: 125px;
+  height: auto;
+  position: absolute;
+  font-size: 33px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-login-frame138 {
+  top: 161px;
+  left: 823px;
+  width: 542px;
+  height: 330px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+}
+.patient-login-frame137 {
+  display: flex;
+  padding: 10px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-bottom: 69px;
+  flex-direction: column;
+}
+.patient-login-frame136 {
+  display: flex;
+  padding: 10px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.patient-login-text06 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 65px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-login-group117 {
+  width: 516px;
+  height: 45px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.patient-login-text08 {
+  left: 2px;
+  color: rgba(0, 0, 0, 1);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-login-line181 {
+  top: 45px;
+  left: 0px;
+  width: 516px;
+  height: 0px;
+  position: absolute;
+}
+.patient-login-text10 {
+  left: 222px;
+  color: rgba(146, 138, 138, 1);
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-login-group119 {
+  top: 416.5975341796875px;
+  left: 821px;
+  width: 516px;
+  height: 39.963134765625px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.patient-login-text12 {
+  left: 2px;
+  color: rgba(0, 0, 0, 1);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-login-line183 {
+  top: 39.963134765625px;
+  left: 0px;
+  width: 516px;
+  height: 0px;
+  position: absolute;
+}
+.patient-login-text14 {
+  top: 2.4976959228515625px;
+  left: 222px;
+  color: rgba(146, 138, 138, 1);
+  width: 91px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  width: 300px;
+}

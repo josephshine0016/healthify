@@ -1,0 +1,301 @@
+.doctor-vc-container {
+  min-height: 100vh;
+}
+.doctor-vc-doctor-vc {
+  width: 100%;
+  height: 864px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.doctor-vc-frame175 {
+  top: 17px;
+  left: 612px;
+  width: 312px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+.doctor-vc-frame167 {
+  display: flex;
+  padding: 10px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-bottom: 0px;
+}
+.doctor-vc-text {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 43px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.doctor-vc-frame168 {
+  display: flex;
+  padding: 10px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.doctor-vc-text02 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.doctor-vc-frame182 {
+  top: 315px;
+  left: 533px;
+  width: 469px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+.doctor-vc-rectangle133 {
+  width: 469px;
+  height: 362px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 284.5px;
+}
+.doctor-vc-group121 {
+  top: 677px;
+  left: 503px;
+  width: 529px;
+  height: 135px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.doctor-vc-frame186 {
+  top: 0px;
+  left: 0px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.doctor-vc-frame185 {
+  top: 45px;
+  left: 0px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.doctor-vc-frame178 {
+  display: flex;
+  padding: 9px 16px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  background-color: rgba(217, 217, 217, 1);
+}
+.doctor-vc-text04 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 43px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.doctor-vc-frame184 {
+  top: 45px;
+  left: 311px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.doctor-vc-frame183 {
+  display: flex;
+  padding: 9px 16px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  background-color: rgba(217, 217, 217, 1);
+}
+.doctor-vc-text06 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 43px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.doctor-vc-frame170 {
+  top: 142px;
+  left: 0px;
+  width: 487px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+.doctor-vc-text08 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 22px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+.doctor-vc-frame169 {
+  display: flex;
+  padding: 10px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.doctor-vc-rectangle136 {
+  width: 467px;
+  height: 95px;
+  position: relative;
+  border-color: transparent;
+}
+.doctor-vc-frame172 {
+  top: 142px;
+  left: 524px;
+  width: 487px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+.doctor-vc-text10 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 22px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+.doctor-vc-frame171 {
+  display: flex;
+  padding: 10px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.doctor-vc-rectangle137 {
+  width: 467px;
+  height: 95px;
+  position: relative;
+  border-color: transparent;
+}
+.doctor-vc-frame174 {
+  top: 142px;
+  left: 1049px;
+  width: 487px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+.doctor-vc-text12 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 22px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+.doctor-vc-frame173 {
+  display: flex;
+  padding: 10px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.doctor-vc-rectangle139 {
+  width: 467px;
+  height: 95px;
+  position: relative;
+  border-color: transparent;
+}

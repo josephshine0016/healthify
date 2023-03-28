@@ -40,6 +40,22 @@ const LandingPage = (props) => {
                   <span>Login</span>
                 </span>
               </div>
+
+              <div className="landing-page-group115x">
+                <span className="landing-page-text02" onClick={() => navigate("/signup-doctor")}>
+                  <span>Sign up</span>
+                </span>
+              </div>
+              <div className="landing-page-group114x">
+                <span className="landing-page-text04" onClick={() => navigate("/login-doctor")}>
+                  <span>Login</span>
+                </span>
+              </div>
+              
+              <div style={{display: 'flex',
+                left: -355,
+                position: "relative"
+            }}>
               <img
                 src="/playground_assets/vector6035-k139.svg"
                 alt="Vector6035"
@@ -55,6 +71,7 @@ const LandingPage = (props) => {
                 alt="Frame6039"
                 className="landing-page-frame1"
               />
+              </div>
             </div>
           </div>
           <div className="landing-page-frame129">
@@ -73,6 +90,8 @@ const LandingPage = (props) => {
           </div>
         </div>
       </div>
+      <h2 style={{position: 'absolute', top: 23, left: 868, color: "black"}}>Patient</h2>
+      <h2 style={{position: 'absolute', top: 81, left: 868, color: "black"}}>Doctor</h2>
     </div>
   )
 }

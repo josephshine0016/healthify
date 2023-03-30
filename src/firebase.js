@@ -2,7 +2,8 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 import { getDatabase,get,ref } from "firebase/database";
-import {getFirestore, doc, setDoc,getDoc } from "firebase/firestore";
+import {getFirestore, doc, setDoc,getDoc , updateDoc, getDocs, collection  } from "firebase/firestore";
+
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -123,29 +124,40 @@ export const getUserData = async (email) => {
     }
 }
 
-
-export const setDoctorData = async (data) => {
+export const pingToServer = async (email) => {
    try {
-      const docRef = doc(db, "docs", data.email);
-      await setDoc(docRef, data);
+      const docRef = doc(db, "users", email);
+      await updateDoc(docRef, { lastSeen: (new Date()).getTime() });
       console.log("Document written");
     } catch (error) {
       console.error("Error adding document: ", error);
     }
 }
 
-export const getDoctorData = async (email) => {
+export const getOnlineDocs = async () => {
    try {
-      const docRef = doc(db, "docs", email);
-      const docSnap = await getDoc(docRef);
-  
-      if (docSnap.exists()) {
-         const data =  docSnap.data()
-        console.log("Document data:", data);
-        return data;
-      } else {
-        console.log("No such document!");
-      }
+      const time = (new Date()).getTime();
+      const querySnapshot = await getDocs(collection(db, "users"));
+      const doctors = querySnapshot.docs.map((doc) => doc.data())
+         .filter(item => item.type === "doctor")
+         .filter(item => (time - item.lastSeen) < 10000);
+      
+      return doctors;
+    } catch (error) {
+      console.error("Error getting document: ", error);
+    }
+}
+
+
+export const getOnlinePatients = async () => {
+   try {
+      const time = (new Date()).getTime();
+      const querySnapshot = await getDocs(collection(db, "users"));
+      const doctors = querySnapshot.docs.map((doc) => doc.data())
+         .filter(item => item.type === "patient")
+         .filter(item => (time - item.lastSeen) < 10000);
+      
+      return doctors;
     } catch (error) {
       console.error("Error adding document: ", error);
     }

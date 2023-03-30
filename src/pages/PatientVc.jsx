@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 import { Helmet } from 'react-helmet'
 import DailyIframe from '@daily-co/daily-js';
@@ -6,6 +6,7 @@ import DailyIframe from '@daily-co/daily-js';
 
 import './patient-vc.css'
 import { useNavigate } from 'react-router-dom';
+import { pingToServer } from '../firebase';
 
 let callFrame = null
 
@@ -31,6 +32,17 @@ async function createFrameAndJoinRoom() {
 const PatientVC = (props) => {
   const navigate = useNavigate();
   const [join, setJoin] = useState(false);
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      pingToServer(localStorage.getItem("email"));
+    }, 3000);
+
+    // Return a cleanup function to clear the interval
+    return () => clearInterval(intervalId);
+  }, []);
+
+
+
   return (
     <div className="patient-vc-container">
       <Helmet>
@@ -40,7 +52,7 @@ const PatientVC = (props) => {
         <div className="patient-vc-frame150">
           <div className="patient-vc-frame147">
             <span className="patient-vc-text">
-              <span>Dr. Sunny Joseph</span>
+              <span>{localStorage.getItem("docname")}</span>
             </span>
           </div>
 
@@ -54,7 +66,6 @@ const PatientVC = (props) => {
           {join ? (
             <button onClick={() => {
               callFrame.destroy().finally(() => navigate("/patient-dashboard"))
-              
             } }> BACK</button>
           ) : (
             <button onClick={() => {

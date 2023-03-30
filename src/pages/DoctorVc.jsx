@@ -58,7 +58,7 @@ const DoctorVC = (props) => {
         <div className="doctor-vc-frame175">
           <div className="doctor-vc-frame167">
             <span className="doctor-vc-text">
-              <span>Sandra Rajeev</span>
+              <span>{localStorage.getItem("patientname")}</span>
             </span>
           </div>
           <div className="doctor-vc-frame168">

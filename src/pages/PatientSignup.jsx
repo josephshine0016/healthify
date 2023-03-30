@@ -23,7 +23,7 @@ const PatientSignup = (props) => {
     else if (typeof user == 'string')
         setError(user);
     else {
-      user && await setUserData({email, fullname, phone});
+      user && await setUserData({email, fullname, phone, type: 'patient'});
       user && navigate("/login-patient");
     }
 

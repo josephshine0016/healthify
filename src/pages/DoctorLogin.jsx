@@ -19,6 +19,7 @@ const DoctorLogin = (props) => {
         setError(user);
     else {
       localStorage.setItem("email", email);
+      localStorage.setItem("type", "doctor");
       user && navigate("/doctor-dashboard");
     }
 

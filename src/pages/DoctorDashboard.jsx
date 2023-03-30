@@ -1,12 +1,25 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import { Helmet } from 'react-helmet'
 import { useNavigate } from 'react-router-dom';
+import { getOnlinePatients, pingToServer } from '../firebase';
 
 import './doctor-dashboard.css'
 
 const DoctorDashboard = (props) => {
   const navigate = useNavigate();
+  const [patients, setPatients] = useState([])
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      pingToServer(localStorage.getItem("email"));
+      getOnlinePatients().then(items => setPatients(items));
+    }, 3000);
+
+    // Return a cleanup function to clear the interval
+    return () => clearInterval(intervalId);
+  }, []);
+
   return (
     <div className="doctor-dashboard-container">
       <Helmet>
@@ -41,7 +54,7 @@ const DoctorDashboard = (props) => {
                     />
                   </div>
                 </div>
-                <span className="doctor-dashboard-text02" onClick = {() => navigate("/profile")}>
+                <span className="doctor-dashboard-text02" onClick={() => navigate("/profile")}>
                   <span>Your Profile</span>
                 </span>
               </div>
@@ -71,7 +84,7 @@ const DoctorDashboard = (props) => {
                   alt="icbaselinelogout415"
                   className="doctor-dashboard-icbaselinelogout"
                 />
-                <span className="doctor-dashboard-text08" onClick = {() => navigate("/login-doctor")}>
+                <span className="doctor-dashboard-text08" onClick={() => navigate("/login-doctor")}>
                   <span>Sign Out</span>
                 </span>
               </div>
@@ -83,56 +96,85 @@ const DoctorDashboard = (props) => {
                 <span>Patients in line</span>
               </span>
             </div>
+
             <div className="doctor-dashboard-frame164">
-              <div className="doctor-dashboard-frame161">
-                <div className="doctor-dashboard-frame158">
-                  <span className="doctor-dashboard-text12">
-                    <span>1. Sandra Rajeev<span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                  </span>
-                </div>
-                <div className="doctor-dashboard-frame124">
-                  <span className="doctor-dashboard-text14" onClick = {() => navigate("/doctor-vc")}>
-                    <span>Accept</span>
-                  </span>
-                </div>
-              </div>
-              <div className="doctor-dashboard-frame162">
-                <div className="doctor-dashboard-frame159">
-                  <span className="doctor-dashboard-text16">
-                    <span>2. Liya Elsa Benny</span>
-                  </span>
-                </div>
-                <div className="doctor-dashboard-frame123">
-                  <span className="doctor-dashboard-text18">
-                    <span>Accept</span>
-                  </span>
-                </div>
-              </div>
-              <div className="doctor-dashboard-frame163">
-                <div className="doctor-dashboard-frame160">
-                  <span className="doctor-dashboard-text20">
-                    <span className="doctor-dashboard-text21">
-                      3.
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                    <span>Midhun Krishna</span>
-                  </span>
-                </div>
-                <div className="doctor-dashboard-frame122">
-                  <span className="doctor-dashboard-text23">
-                    <span>Accept</span>
-                  </span>
-                </div>
-              </div>
+              {
+                patients.length >= 1 && (
+                  <div className="doctor-dashboard-frame161">
+                    <div className="doctor-dashboard-frame158">
+                      <span className="doctor-dashboard-text12">
+                        <span>1. {patients[0].fullname}<span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                        </span>
+                      </span>
+                    </div>
+                    <div className="doctor-dashboard-frame124">
+                      <span className="doctor-dashboard-text14" onClick={() => {
+                        localStorage.setItem("patientname", patients[0].fullname);
+                        navigate("/doctor-vc")
+                      }}>
+                        <span>Accept</span>
+                      </span>
+                    </div>
+                  </div>
+                )
+              }
+              {
+                patients.length >= 2 && (
+                  <div className="doctor-dashboard-frame162">
+                    <div className="doctor-dashboard-frame159">
+                      <span className="doctor-dashboard-text16">
+                        <span>2. {patients[1].fullname}</span>
+                      </span>
+                    </div>
+                    <div className="doctor-dashboard-frame123">
+                      <span className="doctor-dashboard-text18" onClick={() => {
+                        localStorage.setItem("patientname", patients[1].fullname);
+                        navigate("/doctor-vc")
+                      }}>
+                        <span>Accept</span>
+                      </span>
+                    </div>
+                  </div>
+                )
+              }
+
+              {
+                patients.length >= 3 && (
+                  <div className="doctor-dashboard-frame163">
+                    <div className="doctor-dashboard-frame160">
+                      <span className="doctor-dashboard-text20">
+                        <span className="doctor-dashboard-text21">
+                          3.
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: ' ',
+                            }}
+                          />
+                        </span>
+                        <span>{patients[2].fullname}</span>
+                      </span>
+                    </div>
+                    <div className="doctor-dashboard-frame122">
+                      <span className="doctor-dashboard-text23" onClick={() => {
+                        localStorage.setItem("patientname", patients[2].fullname);
+                        navigate("/doctor-vc")
+                      }}>
+                        <span>Accept</span>
+                      </span>
+                    </div>
+                  </div>
+                )
+              }
+
+
+              {/*  */}
+
+              {/*  */}
+
             </div>
           </div>
         </div>
